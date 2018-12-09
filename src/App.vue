@@ -18,6 +18,7 @@ export default {
   },
   methods: {
     centryClick(e) {
+      
       console.log(e);
       
       // 测试 centry
