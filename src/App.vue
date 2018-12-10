@@ -18,6 +18,7 @@ export default {
   },
   methods: {
     centryClick(e) {
+      
       // test git flow hotfix
       console.log(e);
       
