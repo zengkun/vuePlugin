@@ -8,7 +8,7 @@ import uuidv1 from 'uuid/v1'
 
 console.log(uuidv1());
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 import "./filters";
 import "./directives";
@@ -64,7 +64,7 @@ function lodashCompact(array) {
   return result;
 }
 
-var arr = [0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23]
+var arr = [0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23, 0, 1, false, 2, '', ' ', NaN, 'e' * 23]
 
 filterCompact(arr);
 lodashCompact(arr);
