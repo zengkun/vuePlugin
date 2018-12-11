@@ -8,7 +8,7 @@ import uuidv1 from 'uuid/v1'
 
 console.log(uuidv1());
 
-Vue.config.productionTip = false;
+Vue.config.productionTip = false
 
 import "./filters";
 import "./directives";
